@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartOne">
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnbg"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleamber_601">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameContent"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStyleamber_601">
+            <View android:background="@color/amber_600"
+                android:id="@+id/viewBG"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_640pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_375pxh"/>
+            <FrameLayout android:id="@+id/frameStackspringcopy"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" style="@style/groupStyle">
+                <FrameLayout android:id="@+id/frameStackimg"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_666pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageImg"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_640pxv"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_img"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_img"/>
+
+                    <LinearLayout
+                        android:id="@+id/linearColumnthriftfashion"
+                        style="@style/groupStyle_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="722dp"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtTHRIFTFASHION"
+                            style="@style/txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_38pxh"
+                            android:layout_marginTop="@dimen/_12pxv"
+                            android:layout_marginEnd="@dimen/_38pxh"
+                            android:ellipsize="end"
+                            android:gravity="start"
+                            android:singleLine="true"
+                            android:text=""
+                            tools:text="@string/lbl_thrift_fashion" />
+
+                        <ImageView
+                            android:id="@+id/imagePageController"
+                            android:layout_width="@dimen/_148pxh"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="@dimen/_17pxh"
+                            android:layout_marginTop="@dimen/_341pxv"
+                            android:layout_marginEnd="@dimen/_17pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_pagecontroller"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_pagecontroller" />
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle201"
+                            android:layout_width="@dimen/_363pxh"
+                            android:layout_height="@dimen/_91pxv"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="@dimen/_17pxh"
+                            android:layout_marginTop="@dimen/_33pxv"
+                            android:layout_marginEnd="@dimen/_5pxh"
+                            android:layout_marginBottom="@dimen/_60pxv">
+
+                            <View
+                                android:id="@+id/viewRectangle201"
+                                android:layout_width="@dimen/_137pxh"
+                                android:layout_height="@dimen/_6pxv"
+                                android:layout_gravity="top|center"
+                                android:layout_marginStart="@dimen/_110pxh"
+                                android:layout_marginEnd="@dimen/_110pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:background="@color/amber_600" />
+
+                            <LinearLayout
+                                android:id="@+id/linearRowlogin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_40pxh"
+                                android:layout_marginTop="@dimen/_37pxv"
+                                android:layout_marginEnd="@dimen/_40pxh"
+                                android:layout_marginBottom="@dimen/_36pxv"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/txtLOGIN"
+                                    style="@style/txtTenorSans18_3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.4"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    tools:text="@string/lbl_login" />
+
+                                <TextView
+                                    android:id="@+id/txtREGISTER"
+                                    style="@style/txtTenorSans18_3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_93pxh"
+                                    android:layout_weight="0.6"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    tools:text="@string/lbl_register" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/linearRowrectangletwo"
+                                style="@style/groupStylecornerRadius_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|start"
+                                android:layout_marginTop="@dimen/_3pxv"
+                                android:orientation="horizontal">
+
+                                <View
+                                    android:id="@+id/viewRectangleTwo"
+                                    android:layout_width="@dimen/_142pxh"
+                                    android:layout_height="@dimen/_42pxv"
+                                    android:layout_marginStart="@dimen/_21pxh"
+                                    android:layout_marginTop="@dimen/_21pxv"
+                                    android:layout_marginBottom="@dimen/_23pxv"
+                                    android:background="@drawable/rectangle_bg_white_a700_3f_border_white_a700_7f_radius_10_71" />
+
+                                <LinearLayout
+                                    android:id="@+id/linearColumnrectangletwoOne"
+                                    style="@style/groupStylecornerRadius_1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_5pxh"
+                                    android:layout_marginTop="@dimen/_1pxv"
+                                    android:layout_marginEnd="@dimen/_21pxh"
+                                    android:layout_marginBottom="@dimen/_6pxv"
+                                    android:layout_weight="0.55"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical">
+
+                                    <View
+                                        android:id="@+id/viewRectangleTwoOne"
+                                        android:layout_width="@dimen/_153pxh"
+                                        android:layout_height="@dimen/_46pxv"
+                                        android:layout_gravity="end"
+                                        android:layout_marginStart="@dimen/_10pxh"
+                                        android:layout_marginTop="@dimen/_16pxv"
+                                        android:layout_marginBottom="@dimen/_16pxv"
+                                        android:background="@drawable/rectangle_bg_white_a700_3f_border_white_a700_7f_radius_11_5" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearCampaign"
+                    android:layout_gravity="top|end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_83pxv"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_83pxv"
+                    android:layout_width="wrap_content" android:orientation="vertical"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

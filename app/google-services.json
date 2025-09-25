@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843086167622",
+    "project_id": "thriftfashiondb-4c491",
+    "storage_bucket": "thriftfashiondb-4c491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843086167622:android:96fb04f45a84cad528d447",
+        "android_client_info": {
+          "package_name": "com.example.thriftfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843086167622-hca8g26d1d97jttg0bp0t1s28nf957ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmtQ_Lg9M6FsmoKlivQxeQ6AiZ4jEWR6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843086167622-hca8g26d1d97jttg0bp0t1s28nf957ji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

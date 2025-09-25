@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout android:id="@+id/frameStackbrianwangenhei"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <LinearLayout android:id="@+id/linearColumnbrianwangenhei"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearRowbrianwangenhei"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageBrianwangenhei"
+                    android:layout_height="@dimen/_152pxh"
+                    android:layout_marginBottom="@dimen/_31pxv"
+                    android:layout_marginTop="@dimen/_34pxv"
+                    android:layout_width="@dimen/_86pxh"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_brianwangenhei"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_brianwangenhei"/>
+                <ImageView android:id="@+id/imageNapatsaengmVG"
+                    android:layout_height="@dimen/_186pxh"
+                    android:layout_marginBottom="@dimen/_31pxv"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_width="@dimen/_161pxh"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_napatsaengmvg"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_napatsaengmvg"/>
+                <ImageView android:id="@+id/imageNaeimjafarila"
+                    android:layout_height="@dimen/_183pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_34pxv"
+                    android:layout_width="@dimen/_105pxh"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_naeimjafarila"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_naeimjafarila"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowdarkomitevc5t"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageDarkomitevc5t"
+                    android:layout_height="@dimen/_144pxh"
+                    android:layout_marginBottom="@dimen/_33pxv"
+                    android:layout_width="@dimen/_87pxh"
+                    app:srcCompat="@drawable/img_darkomitevc5t"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_darkomitevc5t"/>
+                <ImageView android:id="@+id/imageMonicasilvaVl"
+                    android:layout_height="@dimen/_173pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_monicasilvavl"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_monicasilvavl"/>
+                <ImageView android:id="@+id/imageAnthonyaiSEBX"
+                    android:layout_height="@dimen/_131pxh"
+                    android:layout_marginBottom="@dimen/_21pxv"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="@dimen/_103pxh"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_anthonyaisebx"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_anthonyaisebx"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTheBestLookS"
+                style="@style/txtPoppinssemibold33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:text="@string/msg_the_best_look_s"
+                tools:text="@string/msg_the_best_look_s" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnLetsStart"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginStart="@dimen/_136pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_width="match_parent"
+                android:paddingHorizontal="@dimen/_30pxh"
+                android:paddingVertical="@dimen/_30pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_let_s_start"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_let_s_start"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>

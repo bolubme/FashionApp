@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumndesktopimg3st"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleamber_600">
+        <FrameLayout android:gravity="start" android:id="@+id/frameBG"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStyleamber_600">
+            <ImageView android:id="@+id/imageDesktopimg3st"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_722pxv"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_desktopimg3st"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_desktopimg3st"/>
+            <LinearLayout android:id="@+id/linearColumnthriftfashion"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyleblack_900_35">
+
+
+
+                <TextView android:ellipsize="end" android:gravity="end"
+                    android:id="@+id/txtTHRIFTFASHION"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_39pxh"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@string/lbl_thrift_fashion"
+                    style="@style/txt" tools:text="@string/lbl_thrift_fashion"/>
+
+                <EditText
+                    android:id="@+id/etGroupTen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_81pxh"
+                    android:layout_marginTop="@dimen/_123pxv"
+                    android:layout_marginEnd="@dimen/_81pxh"
+                    android:background="@drawable/layer_list_border_amber_600_radius_10"
+                    android:drawablePadding="@dimen/_30pxh"
+                    android:ellipsize="end"
+                    android:hint="Username"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_16pxv"
+                    android:paddingEnd="@dimen/_10pxh"
+                    android:paddingBottom="@dimen/_11pxv"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@color/amber_600"></EditText>
+
+                <EditText
+                    android:id="@+id/etGroupTen3"
+                    style="@style/etRoundedOutline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_81pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_marginEnd="@dimen/_81pxh"
+                    android:background="@drawable/rectangle_border_amber_600_radius_10"
+                    android:drawableEnd="@drawable/img_lock"
+                    android:drawablePadding="@dimen/_30pxh"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_email"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_16pxv"
+                    android:paddingEnd="@dimen/_10pxh"
+                    android:paddingBottom="@dimen/_11pxv"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@color/amber_600"
+                    tools:ignore="Autofill" />
+
+                <EditText
+                    android:background="@drawable/rectangle_border_amber_600_radius_10"
+                    android:drawableEnd="@drawable/img_lock"
+                    android:drawablePadding="@dimen/_30pxh"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_password"
+                    android:id="@+id/etGroupTen"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_81pxh"
+                    android:layout_marginStart="@dimen/_81pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_11pxv"
+                    android:paddingEnd="@dimen/_10pxh"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_16pxv"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@color/amber_600"
+                    style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+
+                <EditText
+                    android:id="@+id/etGroupEight"
+                    style="@style/etRoundedOutline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_81pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_marginEnd="@dimen/_81pxh"
+                    android:background="@drawable/rectangle_border_amber_600_radius_10"
+                    android:drawableEnd="@drawable/img_lock"
+                    android:drawablePadding="@dimen/_30pxh"
+                    android:ellipsize="end"
+                    android:hint="@string/msg_confirm_passwor"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_10pxh"
+                    android:paddingBottom="@dimen/_12pxv"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@color/amber_600"
+                    tools:ignore="Autofill,TouchTargetSizeCheck" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnCreateAccount"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_81pxh"
+                    android:layout_marginStart="@dimen/_81pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_12pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_12pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_create_account"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline" tools:text="@string/lbl_create_account"/>
+
+                <TextView
+                    android:id="@+id/txtConfirmation"
+                    style="@style/txtIntersemibold11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_97pxh"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_marginEnd="@dimen/_97pxh"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/msg_already_have_an"
+                    tools:text="@string/msg_already_have_an" />
+
+                <TextView android:id="@+id/txtDescription"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_486pxv"
+                    android:layout_marginEnd="@dimen/_92pxh"
+                    android:layout_marginStart="@dimen/_92pxh"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_width="wrap_content"
+                    android:text="@string/msg_by_clicking_cr"
+                    style="@style/txtMontserratmedium8" tools:text="@string/msg_by_clicking_cr"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

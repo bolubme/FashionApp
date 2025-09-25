@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnmenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp" style="@style/groupStyleindigo_50">
+            <LinearLayout android:id="@+id/linearRowmenu"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12pxv"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageMenu"
+                    android:layout_height="@dimen/_15pxh"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_menu_15x23"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_menu_15x23"/>
+                <LinearLayout android:id="@+id/linearRowthriftfashion"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_weight="0.92"
+                    android:layout_width="0dp" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtTHRIFTFASHION"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_weight="0.82"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@string/lbl_thrift_fashion"
+                        style="@style/txtTenorSans20_2" tools:text="@string/lbl_thrift_fashion"/>
+                    <ImageView android:id="@+id/imageSearch"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_22pxh"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="@dimen/_20pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_search_gray_902"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_search_gray_902"/>
+                    <ImageView android:id="@+id/imageBag"
+                        android:layout_height="@dimen/_22pxh"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_19pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_bag_21x19"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_bag_21x19"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_5pxh"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearHomepage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <FrameLayout android:id="@+id/frameBanner"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_582pxv"
+                    android:layout_marginEnd="@dimen/_2pxh" android:layout_width="@dimen/_377pxh">
+                    <ImageView android:id="@+id/imageImageTen"
+                        android:layout_gravity="start"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_image10"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_image10"/>
+                    <LinearLayout
+                        android:id="@+id/linearColumnspeakthroughy"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginEnd="@dimen/_21pxh"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:gravity="start"
+                            android:id="@+id/txtSPEAKTHROUGHY"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="match_parent"
+                            android:letterSpacing="0.06"
+                            android:lineSpacingExtra="@dimen/_5pxh"
+                            android:text="@string/msg_speak_through_y"
+                            android:textAllCaps="true"
+                            style="@style/txtPoppinsbolditalic38" tools:text="@string/msg_speak_through_y"/>
+                        <LinearLayout android:gravity="end"
+                            android:id="@+id/linearButton"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_87pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal" style="@style/groupStyleblack_900_66cornerRadius">
+                            <ImageView android:id="@+id/imageSearchOne"
+                                android:layout_height="@dimen/_20pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginStart="@dimen/_32pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="@dimen/_20pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_search_gray_50_20x20"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_search_gray_50_20x20"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtExploreCollect"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_12pxv"
+                                android:layout_marginEnd="@dimen/_30pxh"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_weight="0.91"
+                                android:layout_width="0dp"
+                                android:lineSpacingExtra="@dimen/_1pxh"
+                                android:singleLine="true"
+                                android:text="@string/msg_explore_collect"
+                                android:textAllCaps="true"
+                                style="@style/txtTenorSans16_9" tools:text="@string/msg_explore_collect"/>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageGroupTwelve"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_8pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_width="@dimen/_40pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group12"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group12"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtNewArrival"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginTop="@dimen/_38pxv"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.2"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:singleLine="true"
+                    android:text="@string/lbl_new_arrival"
+                    android:textAllCaps="true"
+                    style="@style/txtTenorSans18_2" tools:text="@string/lbl_new_arrival"/>
+                <ImageView android:id="@+id/imageThree"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_9pxh"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_124pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_8"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_8"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowall"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAll"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_weight="0.11"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.05"
+                        android:singleLine="true"
+                        android:text="All"
+                        style="@style/txtTenorSans14_9" tools:text="@string/lbl_all"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtApparel"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_26pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.31"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.05"
+                        android:singleLine="true"
+                        android:text="Apparel"
+                        style="@style/txtTenorSans14_10" tools:text="@string/lbl_apparel"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDress"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_26pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.22"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.05"
+                        android:singleLine="true"
+                        android:text="Dress"
+                        style="@style/txtTenorSans14_10" tools:text="@string/lbl_dress"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtTshirt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_26pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.22"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.05"
+                        android:singleLine="true"
+                        android:text="Tshirt"
+                        style="@style/txtTenorSans14_10" tools:text="@string/lbl_tshirt"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtBagOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_22pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.15"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.05"
+                        android:singleLine="true"
+                        android:text="Bag"
+                        style="@style/txtTenorSans14_10" tools:text="@string/lbl_bag"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageRectangle327"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_5pxh"
+                    android:layout_marginEnd="@dimen/_49pxh"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="@dimen/_5pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_rectangle327"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle327"/>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+<!--                1st image view -->
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linearProduct21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints">
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle32521"
+                            android:layout_width="@dimen/_165pxh"
+                            android:layout_height="@dimen/_200pxv"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/imageRectangle32521"
+                                android:layout_width="@dimen/_165pxh"
+                                android:layout_height="@dimen/_200pxh"
+                                android:layout_gravity="start"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/img_rectangle344_7"
+                                tools:ignore="ContentDescription"
+                                tools:src="@drawable/img_rectangle344_7" />
+
+                            <TextView
+                                android:id="@+id/txtGroupThree21"
+                                style="@style/txtSolidRounded_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|start"
+                                android:layout_marginStart="@dimen/_7pxh"
+                                android:layout_marginTop="@dimen/_7pxv"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:ellipsize="end"
+                                android:paddingStart="@dimen/_2pxh"
+                                android:paddingTop="@dimen/_9pxv"
+                                android:paddingEnd="@dimen/_1pxh"
+                                android:paddingBottom="@dimen/_6pxv"
+                                android:singleLine="true"
+                                android:text="new"
+                                tools:text="@string/lbl_new2" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/txtLanguage1"
+                            style="@style/txtTenorSans12_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_15pxv"
+                            android:layout_marginEnd="@dimen/_32pxh"
+                            android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="@string/msg_blue_butterfly"
+                            tools:text="@string/msg_blue_butterfly2" />
+
+                        <TextView
+                            android:id="@+id/txtPrice1"
+                            style="@style/txtTenorSans15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_33pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:ellipsize="end"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="$13"
+                            tools:text="@string/lbl_13" />
+                    </LinearLayout>
+
+                    <LinearLayout android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:id="@+id/linearProduct1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    tools:ignore="MissingConstraints">
+                    <FrameLayout android:id="@+id/frameStackrectangle3251"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_200pxv" android:layout_width="@dimen/_165pxh">
+
+                        <ImageView
+                            android:id="@+id/imageRectangle3254"
+                            android:layout_width="@dimen/_165pxh"
+                            android:layout_height="@dimen/_200pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/img_rectangle325_1"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_rectangle325_1" />
+
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtGroupThree4"
+                            android:layout_gravity="top|start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_7pxh"
+                            android:layout_marginTop="@dimen/_7pxv"
+                            android:layout_width="wrap_content"
+                            android:paddingBottom="@dimen/_6pxv"
+                            android:paddingEnd="@dimen/_1pxh"
+                            android:paddingStart="@dimen/_2pxh"
+                            android:paddingTop="@dimen/_9pxv"
+                            android:singleLine="true"
+                            android:text="new"
+                            style="@style/txtSolidRounded_1" tools:text="@string/lbl_new2"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/txtLanguage4"
+                        style="@style/txtTenorSans12_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_33pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_marginEnd="@dimen/_32pxh"
+                        android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:singleLine="true"
+                        android:text="@string/msg_army_green_pina"
+                        tools:text="@string/msg_army_green_pina" />
+                    <TextView android:ellipsize="end" android:id="@+id/txtPrice24"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginEnd="@dimen/_33pxh"
+                        android:layout_marginStart="@dimen/_33pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="wrap_content"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:singleLine="true"
+                        android:text="@string/lbl_30"
+                        style="@style/txtTenorSans15" tools:text="@string/lbl_30"/>
+                </LinearLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_20pxh">
+                    <!--                1st image view -->
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linearProduct2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints">
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle3252"
+                            android:layout_width="@dimen/_165pxh"
+                            android:layout_height="@dimen/_200pxv"
+                            android:layout_gravity="center">
+
+                            <ImageView
+                                android:id="@+id/imageRectangle3252"
+                                android:layout_width="@dimen/_165pxh"
+                                android:layout_height="@dimen/_200pxh"
+                                android:layout_gravity="start"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/img_rectangle325_200x165"
+                                tools:ignore="ContentDescription"
+                                tools:src="@drawable/img_rectangle325_200x165" />
+
+                            <TextView
+                                android:id="@+id/txtGroupThree2"
+                                style="@style/txtSolidRounded_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top|start"
+                                android:layout_marginStart="@dimen/_7pxh"
+                                android:layout_marginTop="@dimen/_7pxv"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:ellipsize="end"
+                                android:paddingStart="@dimen/_2pxh"
+                                android:paddingTop="@dimen/_9pxv"
+                                android:paddingEnd="@dimen/_1pxh"
+                                android:paddingBottom="@dimen/_6pxv"
+                                android:singleLine="true"
+                                android:text="new"
+                                tools:text="@string/lbl_new2" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/txtLanguage"
+                            style="@style/txtTenorSans12_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_15pxv"
+                            android:layout_marginEnd="@dimen/_32pxh"
+                            android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="@string/lbl_flower_top"
+                            tools:text="@string/lbl_flower_top" />
+
+                        <TextView
+                            android:id="@+id/txtPrice"
+                            style="@style/txtTenorSans15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_33pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:ellipsize="end"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="@string/lbl_30"
+                            tools:text="@string/lbl_30" />
+                    </LinearLayout>
+
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:id="@+id/linearProduct"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        tools:ignore="MissingConstraints">
+                        <FrameLayout android:id="@+id/frameStackrectangle325"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_200pxv" android:layout_width="@dimen/_165pxh">
+
+                            <ImageView
+                                android:id="@+id/imageRectangle325"
+                                android:layout_width="@dimen/_165pxh"
+                                android:layout_height="@dimen/_200pxh"
+                                android:layout_gravity="start"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/img_rectangle325"
+                                tools:ignore="ContentDescription"
+                                tools:src="@drawable/img_rectangle344_7" />
+
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtGroupThree"
+                                android:layout_gravity="top|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginStart="@dimen/_7pxh"
+                                android:layout_marginTop="@dimen/_7pxv"
+                                android:layout_width="wrap_content"
+                                android:paddingBottom="@dimen/_6pxv"
+                                android:paddingEnd="@dimen/_1pxh"
+                                android:paddingStart="@dimen/_2pxh"
+                                android:paddingTop="@dimen/_9pxv"
+                                android:singleLine="true"
+                                android:text="new"
+                                style="@style/txtSolidRounded_1" tools:text="@string/lbl_new2"/>
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/txtLanguage2"
+                            style="@style/txtTenorSans12_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_15pxv"
+                            android:layout_marginEnd="@dimen/_32pxh"
+                            android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="REI HEELS"
+                            tools:text="@string/lbl_rei_heels" />
+                        <TextView android:ellipsize="end" android:id="@+id/txtPrice2"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_33pxh"
+                            android:layout_marginStart="@dimen/_33pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_width="wrap_content"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:singleLine="true"
+                            android:text="$13"
+                            style="@style/txtTenorSans15" tools:text="@string/lbl_13"/>
+                    </LinearLayout>
+
+                </GridLayout>
+
+
+
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearButton1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_116pxh"
+                    android:layout_marginStart="@dimen/_116pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtLoadMore"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_weight="0.89"
+                        android:layout_width="0dp"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:singleLine="true"
+                        android:text="Explore more"
+                        style="@style/txtTenorSans16_10" tools:text="@string/lbl_explore_more"/>
+                    <ImageView android:id="@+id/imageArrowright"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_13pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowright_10x13"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright_10x13"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearFooter"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_51pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyleamber_600">
+                    <ImageView android:id="@+id/imageGroupTwentyNine"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_marginEnd="@dimen/_76pxh"
+                        android:layout_marginStart="@dimen/_76pxh"
+                        android:layout_marginTop="@dimen/_26pxv"
+                        android:layout_width="@dimen/_160pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_group29"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group29"/>
+                    <ImageView android:id="@+id/imageEight"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_9pxh"
+                        android:layout_marginEnd="@dimen/_76pxh"
+                        android:layout_marginStart="@dimen/_76pxh"
+                        android:layout_marginTop="@dimen/_26pxv"
+                        android:layout_width="@dimen/_126pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_8"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_8"/>
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        style="@style/txtTenorSans16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_76pxh"
+                        android:layout_marginTop="@dimen/_26pxv"
+                        android:layout_marginEnd="@dimen/_76pxh"
+                        android:gravity="center_horizontal"
+                        android:text="@string/msg_aptechthriftclo"
+                        tools:text="@string/msg_aptechthriftclo" />
+
+                    <ImageView android:id="@+id/imageTen"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_9pxh"
+                        android:layout_marginBottom="@dimen/_20pxv"
+                        android:layout_marginEnd="@dimen/_76pxh"
+                        android:layout_marginStart="@dimen/_76pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="@dimen/_126pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_8"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_8"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>

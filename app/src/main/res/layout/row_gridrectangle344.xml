@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearProduct"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <FrameLayout android:id="@+id/frameStackrectangle344"
+            android:layout_height="@dimen/_222pxv" android:layout_width="@dimen/_167pxh">
+            <ImageView android:id="@+id/imageRectangle344"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_222pxh"
+                android:layout_width="@dimen/_167pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_rectangle344}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle344"/>
+            <ImageView android:id="@+id/imageUnion"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_13pxh"
+                android:layout_marginBottom="@dimen/_7pxv"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_14pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_union"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_union"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtReversibleango"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:singleLine="true"
+            android:text=""
+            style="@style/txtTenorSans12" tools:text="@string/lbl_cool_cakes_top"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:singleLine="true"
+            android:text=""
+            style="@style/txtTenorSans15" tools:text="@string/lbl_15"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">application5</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_l">L</string>
+    <string name="lbl_m">M</string>
+    <string name="msg_don_t_have_an_a">Don\u2019t have an account? Create account.</string>
+    <string name="lbl_register2">Register</string>
+    <string name="lbl_r">R</string>
+    <string name="msg_confirm_passwor">Confirm Password</string>
+    <string name="lbl_s">S</string>
+    <string name="lbl_apparel">Apparel</string>
+    <string name="msg_the_best_look_s">The Best Look
+Second Hand cloth.</string>
+    <string name="lbl2">❓</string>
+    <string name="lbl3"> / </string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_about">About</string>
+    <string name="msg_new_apparel_bag">New
+Apparel
+Bag
+Shoes</string>
+    <string name="lbl_date_of_birth">Date of Birth</string>
+    <string name="msg_aptechthriftclo">aptechthriftcloth@gmail.com
++234 091256789
+08:00 - 24:00 - Everyday</string>
+    <string name="msg_already_have_an">Already have an account? Sign in</string>
+    <string name="msg_category_listvi">Category_Listview</string>
+    <string name="lbl_app_navigation">App Navigation</string>
+    <string name="lbl_thrift_fashion">THRIFT FASHION</string>
+    <string name="msg_recycle_boucle">   Recycle Boucle Knit Cardigan Brown</string>
+    <string name="lbl_4500_apparel">4500 Apparel</string>
+    <string name="lbl_sign_in">Sign in</string>
+    <string name="lbl_submit2">submit</string>
+    <string name="lbl_edit">edit</string>
+    <string name="lbl_52">$5</string>
+    <string name="lbl_women">Women</string>
+    <string name="lbl_50">$50</string>
+    <string name="msg_tie_and_dye_shi">Tie and Dye Shirt</string>
+    <string name="lbl_summer">SUMMER</string>
+    <string name="lbl_contact">Contact</string>
+    <string name="lbl_man">Man</string>
+    <string name="lbl_care">CARE</string>
+    <string name="msg_product_detail">Product Detail_LayoutTwo</string>
+    <string name="lbl_feed_back2">Feed back</string>
+    <string name="lbl_est_total">Est. Total</string>
+    <string name="msg_category_grid_v">Category_Grid view</string>
+    <string name="msg_outer_blouse">outer&#13;&#13;
+blouse/shirt&#13;
+t-shirt&#13;
+knitwear&#13;
+skirt&#13;
+pants&#13;
+denim&#13;</string>
+    <string name="lbl_top">Top</string>
+    <string name="lbl_size">Size</string>
+    <string name="msg_personal_inform">Personal Information</string>
+    <string name="lbl_cool_cakes_top">Cool Cakes Top</string>
+    <string name="msg_continue_shoppi">Continue shopping</string>
+    <string name="msg_indian_heritage">Indian heritage collection</string>
+    <string name="lbl_your_review">Your review</string>
+    <string name="msg_you_have_no_ite">You have no items in your Shopping Bag.</string>
+    <string name="lbl_create_account2">Create account.</string>
+    <string name="lbl_add_promo_code">Add promo code</string>
+    <string name="lbl_return_policy">Return Policy</string>
+    <string name="lbl_ouh">OUH</string>
+    <string name="lbl_start">Start</string>
+    <string name="lbl_40">$40</string>
+    <string name="lbl_45">$45</string>
+    <string name="msg_account_settin">Account/ Settings</string>
+    <string name="msg_laced_jean_jack">Laced Jean Jacket</string>
+    <string name="msg_collection_deta">Collection_Detail</string>
+    <string name="msg_don_t_have_an_a2">Don\u2019t have an account?</string>
+    <string name="msg_summer_trendy_c">Summer trendy collection</string>
+    <string name="lbl_denim_jean_bag">Denim Jean Bag</string>
+    <string name="lbl_search_view">Search view</string>
+    <string name="msg_you_may_also_li">You may also like</string>
+    <string name="lbl_blue_fit_jeans">Blue fit jeans</string>
+    <string name="msg_already_have_an2">Already have an account?</string>
+    <string name="lbl_terms">terms</string>
+    <string name="lbl_120">$120</string>
+    <string name="msg_what_is_you_rat">What is you rate?</string>
+    <string name="lbl_30">$30</string>
+    <string name="lbl_blue_fit_jeans2">Blue Fit Jeans</string>
+    <string name="msg_wool_knit_cardi"> Wool Knit Cardigan Top</string>
+    <string name="lbl_mohan">MOHAN</string>
+    <string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+    <string name="lbl_dress">Dress</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_color">Color</string>
+    <string name="lbl_new_apparel">New
+Apparel</string>
+    <string name="lbl_cod_policy">COD Policy</string>
+    <string name="msg_woman_campaig">Woman / CAMPAIGN .16</string>
+    <string name="msg_4_result_of_top">4 result of Tops</string>
+    <string name="msg_popular_search">Popular search terms</string>
+    <string name="lbl_collection">Collection</string>
+    <string name="lbl_my_profile">My profile</string>
+    <string name="lbl_product_detail">Product Detail</string>
+    <string name="lbl_h_x_o">H X O</string>
+    <string name="lbl_materials">MATERIALS</string>
+    <string name="msg">****************</string>
+    <string name="lbl_summe">SUMME</string>
+    <string name="lbl_free">Free</string>
+    <string name="lbl_20">$20</string>
+    <string name="lbl_bag">Bag</string>
+    <string name="lbl_nude_pinafore">Nude Pinafore</string>
+    <string name="msg_by_clicking_cr">By clicking \u201cCreate Account\u201d you agree to our
+terms and privacy policy.</string>
+    <string name="msg_please_share_yo">Please share your opinion
+about the product</string>
+    <string name="msg_h_pink_sweatshi">H Pink Sweatshirt</string>
+    <string name="lbl_spring">SPRING</string>
+    <string name="msg_tme12345_gmail">tme12345@gmail.com</string>
+    <string name="lbl_kids">Kids</string>
+    <string name="lbl_register_login">Register/Login</string>
+    <string name="lbl_menu">Menu</string>
+    <string name="lbl_4_8_ratings">4.8 Ratings</string>
+    <string name="lbl_rei_heels">REI Heels</string>
+    <string name="lbl_search_items">Search items</string>
+    <string name="msg_category_grid_v2">Category_Grid view_Full</string>
+    <string name="msg_speak_through_y">SPEAK THROUGH
+YOUR 
+CLOTH</string>
+    <string name="lbl_explore_more">Explore More</string>
+    <string name="lbl_feedback">Feedback</string>
+    <string name="msg_recycle_long_tr">   Recycle Long Trench Coat CoalBlack </string>
+    <string name="lbl_create_account">Create account</string>
+    <string name="msg_very_good_condi">Very Good Condition
+No Quality issues identified by our Team </string>
+    <string name="lbl_about_us">About us</string>
+    <string name="lbl_full_screen">Full screen</string>
+    <string name="msg_explore_collect">Explore Collection</string>
+    <string name="lbl_thrift_fashion2">THRIFT FASHION  </string>
+    <string name="lbl_menu_expand">Menu_Expand</string>
+    <string name="lbl_new2">new</string>
+    <string name="lbl_email_adress">Email adress</string>
+    <string name="lbl_designer_brand">Designer brand</string>
+    <string name="msg_high_waist_jean">High Waist Jeans</string>
+    <string name="lbl_rouh">ROUH</string>
+    <string name="msg_army_green_pina">Army Green Pinafore</string>
+    <string name="lbl_login2">Login</string>
+    <string name="lbl_13">$13</string>
+    <string name="lbl_delivery">Delivery</string>
+    <string name="lbl_12_12_1989">12/12/1989</string>
+    <string name="lbl_woman">Woman</string>
+    <string name="lbl_10">$10</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_21_8_x_67">21 8 X 67</string>
+    <string name="lbl_let_s_start">Let\u2019s Start</string>
+    <string name="lbl_16"> .16</string>
+    <string name="msg_estimated_to_be">Estimated to be delivered on
+09/10/2022 - 10/10/2022.&#13;</string>
+    <string name="lbl_15">$15</string>
+    <string name="lbl_buy_now">BUY NOW</string>
+    <string name="lbl_and"> and </string>
+    <string name="lbl_privacy_policy">privacy policy</string>
+    <string name="msg_by_clicking_cr2">By clicking \u201cCreate Account\u201d you agree to our
+</string>
+    <string name="lbl">.</string>
+    <string name="lbl_register">REGISTER</string>
+    <string name="lbl_submit">Submit </string>
+    <string name="msg_brown_q_may_bag">Brown Q May Bag With Strap</string>
+    <string name="lbl_r_grey_top">R Grey Top</string>
+    <string name="msg_womens_grey_cot">Womens Grey Cotton Top</string>
+    <string name="lbl_cart2">CART</string>
+    <string name="lbl_flower_top">Flower top</string>
+    <string name="lbl_my_profile2">My Profile</string>
+    <string name="lbl_icon">Icon</string>
+    <string name="lbl_cart3">Cart</string>
+    <string name="lbl_sub_total">Sub Total</string>
+    <string name="lbl_tshirt">Tshirt</string>
+    <string name="msg_summer_collecti">Summer collection</string>
+    <string name="lbl_create_account3">Create Account  </string>
+    <string name="lbl_cart_empty">Cart_Empty</string>
+    <string name="lbl_email">Email</string>
+    <string name="msg_blue_butterfly">Blue Butterfly Top</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_01">01</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_02">02</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+    <string name="lbl_4">4</string>
+    <string name="msg_the_world_of_th"> The world of thrifting is large and growing. It includes people from all walks of life, all nations, and every possible interest. Some people intentionally shop at thrift stores at every possible opportunity because thrift merchandise is much less expensive than what they would pay in a retail store and it also helps to accelerate the circular fashion economy.
+  Thrift Fashion was established by three students beacause of their love for fashion.  Here at Thrift Fashion, we aim to provide easy shopping facilities to our customers, wherein they can sit at one place and shop for&#13;pre-used clothing online anytime, anywhere 24/7. Just like our motto says, WE SPEAK THROUGH OUR CLOTHES.</string>
+    <string name="lbl_shoes">Shoes</string>
+    <string name="lbl_high_street">High street</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_roan">ROAN</string>
+    <string name="msg_trend_dress_bag">Trend
+Dress
+Bag
+Tshirt
+Beauty
+Accessories</string>
+    <string name="lbl_new_arrival">New Arrival</string>
+    <string name="lbl_checkout">Checkout</string>
+    <string name="lbl_login">LOGIN</string>
+    <string name="msg_thrift_jackets">Thrift Jackets and Palazzo Trouser</string>
+    <string name="lbl_cart">Cart  </string>
+    <string name="lbl_start_one">Start One</string>
+    <string name="lbl_tme_bayo">Tme Bayo</string>
+    <string name="lbl_all_apparel">All apparel</string>
+    <string name="msg_cream_laced_sho">Cream Laced Shoes</string>
+    <string name="lbl_all">All</string>
+    <string name="msg_free_flat_rate">Free Flat Rate Shipping</string>
+    <string name="msg_blue_butterfly2">Blue butterfly top </string>
+    <string name="lbl_home_page">Home page</string>
+    <string name="lbl_sign_in2">Sign In</string>
+    <string name="lbl_new">New</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_review">Review</string>
+    <string name="lbl_delete_account">Delete Account  </string>
+    <string name="lbl_campaign">CAMPAIGN</string>
+    <string name="lbl_help">Help</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_save_profile">Save profile</string>
+    <string name="msg_receive_early_a">Receive early access to new arrivals, sales, exclusive content, events and much more!</string>
+    <string name="lbl_full_name">Full name</string>
+    <string name="lbl_add_to_basket">Add to basket</string>
+    <string name="msg_please_enter_valid_text">Please enter valid text</string>
+    <string name="msg_please_enter_valid_pa">Please enter valid password</string>
+    <string name="_21_8_x_67">21 8 x 67</string>
+</resources>
