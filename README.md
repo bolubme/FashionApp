@@ -59,6 +59,22 @@ Effective maintenance is achieved through a thorough understanding of the progra
 
 ---
 
+## 4.0 Technologies and Tools
+
+**Thrift Fashion** is developed as an Android mobile application using the following technologies and tools:
+
+- **Programming Language:** Java  
+- **Platform:** Android  
+- **IDE:** Android Studio  
+- **Testing Framework:** JUnit and Android Instrumented Tests  
+- **UI Components:** `ImageView`, `ImageButton`, `Intent` for navigation between activities  
+- **Architecture:** Activity-based with multiple screens for categories, cart, search, and menu  
+- **Database:** Local or remote database for storing product information (implementation dependent)  
+
+This setup ensures the app is user-friendly, responsive, and efficient.
+
+---
+
 ## Feedback
 
 Users can submit their feedback through the in-app feedback form to help improve **Thrift Fashion**. Your suggestions and comments are valuable in making the app better and more user-friendly.
@@ -68,4 +84,3 @@ Users can submit their feedback through the in-app feedback form to help improve
 ## Conclusion
 
 **Thrift Fashion** is an innovative solution that combines sustainable fashion with the convenience of online shopping. By giving pre-used clothing a new life, the app contributes to a greener planet while offering a seamless shopping experience.
-
